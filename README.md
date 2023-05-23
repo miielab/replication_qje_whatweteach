@@ -14,12 +14,12 @@ In particular, this folder contains:
 ## Data
 We do not store the data on github. You can download the data here.
 The specific files you will need include:
-  - book_purchase_data.Rdata
-  - cces_data.Rdata
-  - census_data.Rdata
-  - library_data.Rdata
-  - representation_data.Rdata
-  - search_interest_data.Rdata
-The data should also contain a folder called `supplemental` which contains the `.png` files that we use as background gradient in figures 4a, 5a, 5b, and 5c.
-There is also one censored file (`censored_data/book_purchase_level_data.Rdata`) that we were not allowed to share which contains data on children's book purchases and purchaser demographics.
+  - `book_purchase_data.Rdata`
+  - `cces_data.Rdata`
+  - `census_data.Rdata`
+  - `library_data.Rdata`
+  - `representation_data.Rdata`
+  - `search_interest_data.Rdata`  
+The data should also contain a folder called `supplemental` which contains the `.png` files that we use as background gradient in figures 4a, 5a, 5b, and 5c.  
+There is also one censored file (`censored_data/book_purchase_level_data.Rdata`) that we were not allowed to share which contains data on children's book purchases and purchaser demographics.  
 More information on the variables contained in this data can be found in the data folder.

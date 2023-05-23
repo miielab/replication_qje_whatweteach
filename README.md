@@ -1,6 +1,10 @@
 # Replication Package 
 This repo is where you can find code and data to replicate the main figures and tables in the paper "What We Teach About Race and Gender: Representation in Images and Text of Children’s Books" which is published in the quarterly journal of economics.
 
+## Requirements
+You will need to download both R and RStudio to run these scripts. We use R version 4.3.0 (2023-04-21) and RStudio version 2023.03.0+386.  
+The script `code\requirements.txt` contains information on all the `.R` packages (and which versions) we use for this analysis. These packages will automatically be loaded in the beginning of each script which outputs a table or figure. Please open this script and make sure all the listed packages are installed before running any code. 
+
 ## Code 
 This folder contains the code we use to make each main figure and table (with the exception of Figure II which was made using a graphics editor).
 In particular, this folder contains:
@@ -8,7 +12,7 @@ In particular, this folder contains:
     - `figure_I.R` outputs three `.png` files: `figure_I_a.png`, `figure_I_b.png`, and `figure_I_c.png`
     - `table_I.R` outputs one `.txt` file: `table_I.txt`
   - `graph_themes.R` contains code which sets the ggplot theme and customizes colors, shapes, etc for the figures in our paper. This script will automatically be loaded in the beginning of any script that outputs a figure.
-  - `requirements.txt` contains information on all the `.R` packages (and which versions) we use for this analysis. This script will automatically be loaded in the beginning of each script which outputs a table or figure. Please open this script and make sure all the listed packages are installed before running the code. 
+  - `requirements.txt` contains code to load the required packages
   - `run_all_scripts.R` will run all the scripts and output all figures and tables.
 
 ## Data

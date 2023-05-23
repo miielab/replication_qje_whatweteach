@@ -11,8 +11,8 @@ In particular, this folder contains:
   - One `.R` script for each figure and table. For example:
     - `figure_I.R` outputs three `.png` files: `figure_I_a.png`, `figure_I_b.png`, and `figure_I_c.png`
     - `table_I.R` outputs one `.txt` file: `table_I.txt`
-  - `graph_themes.R` contains code which sets the ggplot theme and customizes colors, shapes, etc for the figures in our paper. This script will automatically be loaded in the beginning of any script that outputs a figure.
-  - `requirements.txt` contains code to load the required packages
+  - `graph_themes.R` contains code which sets the ggplot theme and customizes colors, shapes, etc for the figures in our paper. This script will automatically run at the beginning of any script that outputs a figure.
+  - `requirements.txt` contains code to load the required packages. This script will automatically run at the beginning of any script that outputs a figure or table.
   - `run_all_scripts.R` will run all the scripts and output all figures and tables.
 
 ## Data

@@ -1,5 +1,5 @@
 # Replication Package 
-This repo is where you can find code and data to replicate the main figures and tables in the paper "What We Teach About Race and Gender: Representation in Images and Text of Children’s Books" which is published in the quarterly journal of economics.
+This repo is where you can find code and data to replicate the main figures and tables in the paper "What We Teach About Race and Gender: Representation in Images and Text of Children’s Books" which is published in the Quarterly Journal of Economics.
 
 ## Requirements
 You will need to download both R and RStudio to run these scripts. We use R version 4.3.0 (2023-04-21) and RStudio version 2023.03.0+386.  

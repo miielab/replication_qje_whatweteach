@@ -170,7 +170,7 @@ The variables in this dataset and their descriptions are as follows:
   - `year`: year the search interest is was collection
 
 # Censored Data
-Data on book purchases comes from the Numerator Omnipanel. We use this data to construct table II, table III, table Vb, table VI, and figure Ib. The authors are not permitted to share these data, but we do share the code we use to create the relevant tables and figures. Below we list each censored dataset and describe the relevant variables.
+Data on book purchases between 2017-2020 comes from the Numerator Omnipanel. We use this data to construct table II, table III, table Vb, table VI, and figure Ib. The authors are not permitted to share these data, but we do share the code we use to create the relevant tables and figures. Below we list each censored dataset and describe the relevant variables.
 
 ## `censored_data/book_purchase_level_data.Rdata`
 This file contains one dataset called `purchases`.
@@ -209,9 +209,8 @@ The variables in this dataset and their descriptions are as follows:
   - `pct_mentions_famous_white`: percent of mentions of famous people that are white
 
 ## `censored_data/book_purchase_data.Rdata`
-This file contains one dataset called `collection_event_time` which contains information on purchases of award winning children's books near the time of award announcement.  
-To create this dataset, we use data on book purchases between 2017-2020 from the Numerator Omni-panel.  
-We manually match each award winning children's book in our sample (published between 2016 and 2019) with the item_ids of book purchased in this data by title. 
+This file contains one dataset called `collection_event_time` which contains information on purchases of award winning children's books near the time of award announcement.   
+We manually match each award winning children's book in our sample (published between 2016 and 2019) with books purchased in this data by title. 
 Then we use purchases of all other books in the children's department that were published between 2016 and 2019 as our comparison group.
 
 We first identify the date each book was eligible for an award (the yearly awards in our sample are are announced near the end of January and only books published the year before are eligible).

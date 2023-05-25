@@ -15,7 +15,7 @@ setwd(dirname(getActiveDocumentContext()$path))
 source("table_I.R")
 
 setwd(dirname(getActiveDocumentContext()$path))
-source("table_II.R") # First column different
+source("table_II.R")
 
 setwd(dirname(getActiveDocumentContext()$path))
 source("table_III.R")
@@ -24,7 +24,7 @@ setwd(dirname(getActiveDocumentContext()$path))
 source("table_IV.R")
 
 setwd(dirname(getActiveDocumentContext()$path))
-source("table_V.R") # First row of first column different
+source("table_V.R")
 
 setwd(dirname(getActiveDocumentContext()$path))
 source("table_VI.R")

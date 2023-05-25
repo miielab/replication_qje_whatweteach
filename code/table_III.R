@@ -34,7 +34,7 @@ table$m3 <- lm(data=purchases, pct_mentions_famous_black ~ ethnicity)
 table$m4 <- lm(data=purchases, pct_mentions_famous_latinx ~ ethnicity)
 table$m5 <- lm(data=purchases, pct_mentions_famous_white ~ ethnicity)
 stargazer(table, 
-          # type="text",
+          type="text",
           dep.var.labels = c("Average Skin Tint","Famous Asian",
                              "Famous Black","Famous Latinx", "Famous White"),
           dep.var.caption = "Dependent Variable:",

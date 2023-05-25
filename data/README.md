@@ -1,5 +1,4 @@
 # Codebook
-The data that needs to be downloaded into this folder can be found here.
 Below we list each dataset and describe the relevant variables
 ## `book_purchase_data.Rdata`
 This file contains one dataset called `collection_event_time` which contains information on purchases of award winning children's books near the time of award announcement.  

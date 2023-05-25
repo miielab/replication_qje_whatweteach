@@ -3,8 +3,11 @@
 .Rhistory
 .Rapp.history
 
-# Session Data files
+# Data
 *.Rdata
+/censored_data/
+
+# Output Files
 *.png
 *.txt
 

@@ -21,7 +21,7 @@ source("graph_themes.R")
 ### Library Data
 load("../data/library_data.Rdata")
 load("../data/search_interest_data.Rdata")
-load("../data/book_purchase_data.Rdata")
+load("../data/censored_data/book_purchase_data.Rdata")
 
 # Focus on Mainstream/Diversity
 sample_books %<>% subset(collection %in% c("Mainstream","Diversity"))

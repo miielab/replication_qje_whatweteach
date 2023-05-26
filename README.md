@@ -1,5 +1,5 @@
 # Replication Package 
-This repo is where you can find code and data to replicate the main figures and tables in the paper "What We Teach About Race and Gender: Representation in Images and Text of Children's Books" which is published in the Quarterly Journal of Economics.
+This is where you can find code and data to replicate the main figures and tables in the paper "What We Teach About Race and Gender: Representation in Images and Text of Children's Books" which is published in the Quarterly Journal of Economics.
 
 ## Requirements
 You will need to download both R and RStudio to run these scripts. We use R version 4.3.0 (2023-04-21) and RStudio version 2023.03.0+386.  
@@ -25,5 +25,5 @@ The specific files you will need include:
   - `representation_data.Rdata`
   - `search_interest_data.Rdata`  
 The data should also contain a folder called `supplemental` which contains the `.png` files that we use as background gradient in figures 4a, 5a, 5b, and 5c.  
-There is also one censored file (`censored_data/book_purchase_level_data.Rdata`) that we were not allowed to share which contains data on children's book purchases and purchaser demographics.  
-More information on the variables contained in this data can be found in the data folder.
+There is also one censored file (`censored_data/book_purchase_level_data.Rdata`) that we were not allowed to share which contains data on children's book purchases and purchaser demographics. 
+We use these data to construct table II, table III, table Vb, table VI, and figure Ib. More information on the variables contained in this data can be found in the data folder.

@@ -170,7 +170,7 @@ The variables in this dataset and their descriptions are as follows:
   - `year`: year the search interest is was collection
 
 # Censored Data
-Data on book purchases between 2017-2020 comes from the Numerator Omnipanel. We use this data to construct table II, table III, table Vb, table VI, and figure Ib. The authors are not permitted to share these data, but we do share the code we use to create the relevant tables and figures. Below we list each censored dataset and describe the relevant variables.
+Data on book purchases between 2017-2020 comes from the Numerator Omnipanel. We use these data to construct table II, table III, table Vb, table VI, and figure Ib. The authors are not permitted to share these data, but we do share the code we use to create the relevant tables and figures. Below we list each censored dataset and describe the relevant variables.
 
 ## `censored_data/book_purchase_level_data.Rdata`
 This file contains one dataset called `purchases`.

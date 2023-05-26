@@ -6,6 +6,7 @@
 ### Set Up =================================
 ### ========================================
 # Set working directory to the directory to which this file is saved
+library("rstudioapi")
 setwd(dirname(getActiveDocumentContext()$path))
 
 # Load Packages

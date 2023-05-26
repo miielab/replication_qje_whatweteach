@@ -213,12 +213,12 @@ This file contains one dataset called `collection_event_time` which contains inf
 We manually match each award winning children's book in our sample (published between 2016 and 2019) with books purchased in this data by title. 
 Then we use purchases of all other books in the children's department that were published between 2016 and 2019 as our comparison group.
 
-We first identify the date each book was eligible for an award (the yearly awards in our sample are are announced near the end of January and only books published the year before are eligible).
+We first identify the date each book was eligible for an award (the yearly awards in our sample are announced near the end of January and only books published the year before are eligible).
 Then we count the number of purchases of each book per day, centered around the award announcement date in the year each book was eligible.
 We then find the average purchases of books in a collection/citation category per day.
 
 The variables in this dataset and their descriptions are as follows:
   - `collection_citation`: The collection (e.g. Mainstream or Diversity) and the citation (e.g. Award Winners or Award Honors)
-  - `event_time`: number of days since award annoucement in the year a book was eligible
+  - `event_time`: number of days since award announcement in the year a book was eligible
   - `quantity_purchased_scaled`: average number of purchases for books in a given collection_citation and in a given event time
   - `moving_average_quantity_purchased_scaled`: 14-day moving average of `quantity_purchased_scaled`
